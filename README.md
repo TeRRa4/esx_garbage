@@ -1,11 +1,11 @@
-#esx_garbage
+# esx_garbage
 
   Eboueur Job
 
-#Getting Started
+# Getting Started
 
   Add esx_location folder into resources
   Add in server.cfg
   
-#Configuration
+# Configuration
   Config only in config.lua
