@@ -5,6 +5,7 @@
 # Getting Started
 
   Add esx_garbage folder into resources
+  
   Add in server.cfg
   
 # Configuration
