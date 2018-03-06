@@ -4,7 +4,7 @@
 
 # Getting Started
 
-  Add esx_location folder into resources
+  Add esx_garbage folder into resources
   Add in server.cfg
   
 # Configuration
