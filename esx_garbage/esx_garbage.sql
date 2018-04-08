@@ -4,5 +4,5 @@ INSERT INTO `jobs` (`id`, `name`, `label`, `whitelisted`) VALUES
 INSERT INTO `job_grades` (`id`, `job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES
 (NULL, 'eboueur', 0, 'interim', 'Intérimaire', 250, '{}', '{}');
 
-INSERT INTO `items` (`id`, `name`, `label`, `limit`, `height`, `rare`, `can_remove`) VALUES
-(NULL, 'poubelle', 'Poubelle', 100, 500, 0, 1);
+INSERT INTO `items` (`id`, `name`, `label`, `limit`, `rare`, `can_remove`) VALUES
+(NULL, 'poubelle', 'Poubelle', -1, 0, 1);
