@@ -1,0 +1,16 @@
+Locales['en'] = {
+	['GPS_info'] = 'The depot has added a waypoint to your ~y~GPS',
+	['cancel_mission'] = 'You ~r~cancelled the mission',
+	['pickup'] = '~INPUT_CONTEXT~ to collect the trash',
+	['end_service'] = 'End service',
+	['take_service'] = 'Take service',
+	['end_service_notif'] = 'End of service',
+	['take_service_notif'] = 'Service taken',
+	['start_job'] = 'Use the ~b~DEL ~w~pkey to start the job',
+	['Vehicle_Menu_Title'] = 'Service Vehicle',
+	['in_vehicle'] = '~r~Get out of your vehicle!',
+	['vehicle_broken'] = '~r~Repair your vehicle first!',
+	['bad_vehicle'] = 'You can only use ~b~Service Vehicles',
+	['not_good_veh'] = '~r~You must be in your service vehicle',
+	['stop_npc'] = 'Action ~r~impossible~s~: Go to the dump',
+}
