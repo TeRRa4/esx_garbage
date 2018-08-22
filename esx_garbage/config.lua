@@ -1,9 +1,9 @@
 Config                            = {}
 Config.DrawDistance               = 100.0
-Config.nameJob                    = "eboueur"
+Config.nameJob                    = "garbage man"
 Config.nameJobLabel               = "Little Pricks"
-Config.platePrefix                = "EBOU"
-Config.Locale                     = 'fr'
+Config.platePrefix                = "TRSH"
+Config.Locale                     = 'en'
 
 Config.Blip = {
     Sprite = 318,
@@ -13,7 +13,7 @@ Config.Blip = {
 Config.Vehicles = {
 	Truck = {
 		Spawner = 1,
-		Label = 'Camion',
+		Label = 'Truck',
 		Hash = "trash",
 		Livery = 0,
 		Trailer = "none",
@@ -29,8 +29,8 @@ Config.Zones = {
     Type    = 1,
 	BlipSprite = 318,
 	BlipColor = 52,
-	BlipName = Config.nameJobLabel.." : Vestiaire",
-	hint = 'Appuyez sur ~INPUT_CONTEXT~ pour accéder au vestiaire',
+	BlipName = Config.nameJobLabel.." : Cloakroom",
+	hint = 'Press ~INPUT_CONTEXT~ to access the cloakroom',
   },
 
   VehicleSpawner = {
@@ -40,8 +40,8 @@ Config.Zones = {
 	Type  = 1,
 	BlipSprite = 318,
 	BlipColor = 52,
-	BlipName = Config.nameJobLabel.." : Véhicule",
-	hint = 'Appuyez sur ~INPUT_CONTEXT~ pour accéder au garage',
+	BlipName = Config.nameJobLabel.." : Claim Vehicle",
+	hint = 'Press ~INPUT_CONTEXT~ to access the garage',
   },
 
   VehicleSpawnPoint = {
@@ -58,8 +58,8 @@ Config.Zones = {
 	Type  = 1,
 	BlipSprite = 318,
 	BlipColor = 52,
-	BlipName = Config.nameJobLabel.." : Retour Véhicule",
-	hint = 'Appuyez sur ~INPUT_CONTEXT~ pour ranger le véhicule',
+	BlipName = Config.nameJobLabel.." : Return Vehicle",
+	hint = 'Press ~INPUT_CONTEXT~ to return this vehicle',
   },
 
   Vente = {
@@ -69,7 +69,7 @@ Config.Zones = {
 	Type  = 1,
 	BlipSprite = 318,
 	BlipColor = 52,
-	BlipName = Config.nameJobLabel.." : Déchetterie",
+	BlipName = Config.nameJobLabel.." : Waste Collection",
 		
 	ItemTime = 500,
 	ItemDb_name = "poubelle",
@@ -81,7 +81,7 @@ Config.Zones = {
 	ItemRequires_name = "Poubelle",
 	ItemDrop = 100,
 	ItemPrice  = 50,
-	hint = 'Appuyez sur ~INPUT_CONTEXT~ pour décharger les poubelles',
+	hint = 'Press ~INPUT_CONTEXT~ to unload the trash',
   },
 
 }
