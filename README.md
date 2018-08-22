@@ -1,12 +1,14 @@
 # esx_garbage
 
-  Eboueur Job
+  Garage Man Job
 
 # Getting Started
 
-  Add esx_garbage folder into resources
+  Add `esx_garbage` folder into `resources\[esx]`
   
-  Add in server.cfg
+  Add in `server.cfg`
   
 # Configuration
-  Config only in config.lua
+  Configure plugin in `config.lua`
+
+Translated to English by TeRRa4
